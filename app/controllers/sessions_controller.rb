@@ -3,4 +3,8 @@ class SessionsController < ApplicationController
     session[:user_id] = nil
     redirect_to root_path
   end
+
+  def new
+
+  end
 end
